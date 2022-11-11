@@ -5,3 +5,48 @@ root{
 body{
     font-family:"roboto", "raleway", sans-serif
 }
+.btn{
+    position: absolute;
+       
+        font-family:inherit;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height:1.88;         
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background:#2196F3;
+        color: #FFFFFF;
+}
+  /*----------Header---------*/
+.header {}
+
+.header-nav {}
+
+.header-logo {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: 400;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+
+.header-list {}
+
+.list {}
+
+.header-link {}
+
+.link {}
+
+.header-mail {}
+
+.header-tel {}
