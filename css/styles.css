@@ -1,21 +1,27 @@
-root{
-    --primary-color: #FFFFFF;    
-    --active-color: #2196F3;
-    --font-color:#757575;
+:root{
+    --primary-color: #FFFFFF;;    
+    --active-color:#2196F3;
+    --active-color-two:#000000;
+    --font-color:#757575;    
     }
 
 body{
     font-family:"roboto", sans-serif;
     font-style: 400;
-    background-color: var(--primary-color);
+    background-color:var(--primary-color);
     color: #212121;
 }
 
 
   /*----------Header.index---------*/
 .header{
-    background: var(--primary-color);
+    background:var(--primary-color);
 }
+.link{
+    text-decoration: none;
+    color: var(--font-color);
+    }
+    
   .header-logo {
     font-family: 'Raleway';
     font-style: 400;
@@ -23,11 +29,11 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color:#000000;
+    color: var(--active-color-two);
 }
 
 a.header-logo{
-    color: #000000;
+    color:var(--active-color-two);
 } 
 .logo{
     color:var(--active-color);
@@ -39,35 +45,40 @@ a.header-logo:hover{
 }
 .logo:focus,
 a.header-logo:focus{
-    color: var(--active-color);
+    color:var(--active-color);
 }
 
 .header-link {
     font-family: inherit;        
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
 }
 .header-link:hover,
 .header-link:focus{
-    color: var(--active-color);
+    color:var(--active-color);
 }
 
 
 .header-list{
-        font-style: 400;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;    
-        color: var(--font-color);
-}
-.header-list:hover,
-.header-list:focus{
-    color: var(--active-color);
+    font-style: 400;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+    color:var(--font-color);
 }
 
+
+.header-address-mail:hover,
+ .header-address-mail:focus{
+        color: var(--active-color);}
+
+.header-address-tel:hover,
+ .header-address-tel:focus{
+    color: var(--active-color);
+}
 ul {
     list-style: none;
 }
@@ -83,24 +94,28 @@ ul {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;    
-        color: var(--primary-color);
+        color:var(--primary-color);
 }
 
 .btn {
     font-family: inherit;
-        font-style: 400;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        background: var(--active-color);
-         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-         border-radius: 4px;    
-        color: var(--primary-color);
-        cursor: pointer;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background:var(--active-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;    
+    color:var(--primary-color);
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    color: var(--active-color-two);
 }
 /*----------Features.index--------*/
 .features {
@@ -130,7 +145,7 @@ ul {
     font-size: 14px;
      line-height: 1.71;         
      letter-spacing: 0.03em;    
-      color: var(--font-color);
+      color:var(--font-color);
 }
 /*----------what we do.index--------*/
 .work {
@@ -178,19 +193,32 @@ ul {
     background: #2F303A;
     }
 
-.adress-link {
+ .address-link {    
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;   
-     color: var(--primary-color);
+    color: var(--primary-color);
 }
 
-.adress-item {
+.adress-item {    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;    
      color: rgba(255, 255, 255, 0.6);
 }
+
+.address-link:hover,
+.address-link:focus
+{
+    color:var(--active-color-two);
+}
+
+.address-item:hover,
+.address-item:focus{
+    color: var(--active-color-two);
+}
+
 /*----------Filter.portfolio--------*/
 .filter-button {
     font-family: inherit;
@@ -221,5 +249,8 @@ ul {
     font-size: 16px;
     line-height: 1.88;          
     letter-spacing: 0.03em;    
-     color: var(--font-color);
+    color: var(--font-color);
+}
+.project-link{
+    text-decoration: none;
 }
