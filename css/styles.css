@@ -48,12 +48,6 @@ a.header-logo:focus{
 .header-link:focus{
     color:var(--active-color);}
 
-.header-list{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;    
-    color:var(--font-color);}
 .header-address-mail:hover,
  .header-address-mail:focus{color: var(--active-color);}
 
@@ -149,19 +143,18 @@ ul {list-style: none;}
 /*----------Footer--------*/
 .footer {background: #2F303A;}
 
-.auth-address{font-style: normal;}
-
 .footer-logo{color: var(--primary-color);}
-.footer-logo:hover,
+.footer-logo:hover{color: var(--active-color);}
 .footer-logo:focus{color: var(--active-color);}
- .address-link {    
+.auth-address {font-style: normal;}
+ .address-link {     
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;   
     color: var(--primary-color);}
 
-.adress-item {    
+.address-item {    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;    
